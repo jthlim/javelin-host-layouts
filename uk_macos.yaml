@@ -443,6 +443,7 @@ keyCodes:
     modifiers: [alt, shift]
     scanCode: 0x34
 
+  "\r": 0x28
   "\n": 0x28
 
   # Lower letter row

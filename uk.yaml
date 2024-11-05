@@ -156,6 +156,7 @@ keyCodes:
     modifiers: shift
     scanCode: 0x32
 
+  "\r": 0x28
   "\n": 0x28
 
   # Lower letter row
