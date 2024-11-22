@@ -1,0 +1,207 @@
+# Mapping for Dvorak without support for non-ascii input.
+name: Dvorak
+identifier: dvorak
+unicode: none
+keyCodes:
+  # Number row
+  "`": 0x35
+  "~":
+    modifiers: shift
+    scanCode: 0x35
+  "1": 0x1e
+  "!":
+    modifiers: shift
+    scanCode: 0x1e
+  "2": 0x1f
+  "@":
+    modifiers: shift
+    scanCode: 0x1f
+  "3": 0x20
+  "#":
+    modifiers: shift
+    scanCode: 0x20
+  "4": 0x21
+  "$":
+    modifiers: shift
+    scanCode: 0x21
+  "5": 0x22
+  "%":
+    modifiers: shift
+    scanCode: 0x22
+  "6": 0x23
+  "^":
+    modifiers: shift
+    scanCode: 0x23
+  "7": 0x24
+  "&":
+    modifiers: shift
+    scanCode: 0x24
+  "8": 0x25
+  "*":
+    modifiers: shift
+    scanCode: 0x25
+  "9": 0x26
+  "(":
+    modifiers: shift
+    scanCode: 0x26
+  "0": 0x27
+  ")":
+    modifiers: shift
+    scanCode: 0x27
+  "[": 0x2d
+  "{":
+    modifiers: shift
+    scanCode: 0x2d
+  "]": 0x2e
+  "}":
+    modifiers: shift
+    scanCode: 0x2e
+  "\b": 0x2a
+
+  # Top letter row
+  "\t": 0x2b
+  "'": 0x14
+  "\"":
+    modifiers: shift
+    scanCode: 0x14
+  ",": 0x1a
+  "<":
+    modifiers: shift
+    scanCode: 0x1a
+  ".": 0x08
+  ">":
+    modifiers: shift
+    scanCode: 0x8
+  "p": 0x15
+  "P":
+    modifiers: shift
+    scanCode: 0x15
+  "y": 0x17
+  "Y":
+    modifiers: shift
+    scanCode: 0x17
+  "f": 0x1c
+  "F":
+    modifiers: shift
+    scanCode: 0x1c
+  "g": 0x18
+  "G":
+    modifiers: shift
+    scanCode: 0x18
+  "c": 0x0c
+  "C":
+    modifiers: shift
+    scanCode: 0x0c
+  "r": 0x12
+  "R":
+    modifiers: shift
+    scanCode: 0x12
+  "l": 0x13
+  "L":
+    modifiers: shift
+    scanCode: 0x13
+  "/": 0x2f
+  "?":
+    modifiers: shift
+    scanCode: 0x2f
+  "=": 0x30
+  "+":
+    modifiers: shift
+    scanCode: 0x30
+  "\\": 0x31
+  "|":
+    modifiers: shift
+    scanCode: 0x31
+
+  # Middle letter row
+  "a": 0x04
+  "A":
+    modifiers: shift
+    scanCode: 0x04
+  "o": 0x16
+  "O":
+    modifiers: shift
+    scanCode: 0x16
+  "e": 0x07
+  "E":
+    modifiers: shift
+    scanCode: 0x07
+  "u": 0x09
+  "U":
+    modifiers: shift
+    scanCode: 0x09
+  "i": 0x0a
+  "I":
+    modifiers: shift
+    scanCode: 0x0a
+  "d": 0x0b
+  "D":
+    modifiers: shift
+    scanCode: 0x0b
+  "h": 0x0d
+  "H":
+    modifiers: shift
+    scanCode: 0x0d
+  "t": 0x0e
+  "T":
+    modifiers: shift
+    scanCode: 0x0e
+  "n": 0x0f
+  "N":
+    modifiers: shift
+    scanCode: 0x0f
+  "s": 0x33
+  "S":
+    modifiers: shift
+    scanCode: 0x33
+  "-": 0x34
+  "_":
+    modifiers: shift
+    scanCode: 0x34
+  "\r": 0x28
+  "\n": 0x28
+
+  # Lower letter row
+  ";": 0x1d
+  ":":
+    modifiers: shift
+    scanCode: 0x1d
+  "q": 0x1b
+  "Q":
+    modifiers: shift
+    scanCode: 0x1b
+  "j": 0x06
+  "J":
+    modifiers: shift
+    scanCode: 0x06
+  "k": 0x19
+  "K":
+    modifiers: shift
+    scanCode: 0x19
+  "x": 0x05
+  "X":
+    modifiers: shift
+    scanCode: 0x05
+  "b": 0x11
+  "B":
+    modifiers: shift
+    scanCode: 0x11
+  "m": 0x10
+  "M":
+    modifiers: shift
+    scanCode: 0x10
+  "w": 0x36
+  "W":
+    modifiers: shift
+    scanCode: 0x36
+  "v": 0x37
+  "V":
+    modifiers: shift
+    scanCode: 0x37
+  "z": 0x38
+  "Z":
+    modifiers: shift
+    scanCode: 0x38
+
+  # Space bar
+  " ": 0x2c
