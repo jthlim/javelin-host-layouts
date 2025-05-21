@@ -1,0 +1,365 @@
+# Mapping for US keyboards on Android.
+name: US Android
+identifier: us_android
+unicode: none
+keyCodes:
+  # Number row
+  "`": 0x35
+  "~":
+    modifiers: shift
+    scanCode: 0x35
+  "à":
+  - {scanCode: 53, modifiers: alt}
+  - 4
+  "À":
+  - {scanCode: 53, modifiers: alt}
+  - {scanCode: 4, modifiers: shift}
+  "è":
+  - {scanCode: 53, modifiers: alt}
+  - 8
+  "È":
+  - {scanCode: 53, modifiers: alt}
+  - {scanCode: 8, modifiers: shift}
+  "ì":
+  - {scanCode: 53, modifiers: alt}
+  - 12
+  "Ì":
+  - {scanCode: 53, modifiers: alt}
+  - {scanCode: 12, modifiers: shift}
+  "ò":
+  - {scanCode: 53, modifiers: alt}
+  - 18
+  "Ò":
+  - {scanCode: 53, modifiers: alt}
+  - {scanCode: 18, modifiers: shift}
+  "ù":
+  - {scanCode: 53, modifiers: alt}
+  - 24
+  "Ù":
+  - {scanCode: 53, modifiers: alt}
+  - {scanCode: 24, modifiers: shift}
+  "1": 0x1e
+  "!":
+    modifiers: shift
+    scanCode: 0x1e
+  "2": 0x1f
+  "@":
+    modifiers: shift
+    scanCode: 0x1f
+  "3": 0x20
+  "#":
+    modifiers: shift
+    scanCode: 0x20
+  "4": 0x21
+  "$":
+    modifiers: shift
+    scanCode: 0x21
+  "5": 0x22
+  "%":
+    modifiers: shift
+    scanCode: 0x22
+  "6": 0x23
+  "^":
+    modifiers: shift
+    scanCode: 0x23
+  "7": 0x24
+  "&":
+    modifiers: shift
+    scanCode: 0x24
+  "8": 0x25
+  "*":
+    modifiers: shift
+    scanCode: 0x25
+  "9": 0x26
+  "(":
+    modifiers: shift
+    scanCode: 0x26
+  "0": 0x27
+  ")":
+    modifiers: shift
+    scanCode: 0x27
+  "-": 0x2d
+  "_":
+    modifiers: shift
+    scanCode: 0x2d
+  "=": 0x2e
+  "+":
+    modifiers: shift
+    scanCode: 0x2e
+  "\b": 0x2a
+
+  # Top letter row
+  "\t": 0x2b
+  "q": 0x14
+  "Q":
+    modifiers: shift
+    scanCode: 0x14
+  "w": 0x1a
+  "W":
+    modifiers: shift
+    scanCode: 0x1a
+  "e": 0x08
+  "E":
+    modifiers: shift
+    scanCode: 0x8
+  "á":
+  - {scanCode: 8, modifiers: alt}
+  - 4
+  "Á":
+  - {scanCode: 8, modifiers: alt}
+  - {scanCode: 4, modifiers: shift}
+  "é":
+  - {scanCode: 8, modifiers: alt}
+  - 8
+  "É":
+  - {scanCode: 8, modifiers: alt}
+  - {scanCode: 8, modifiers: shift}
+  "í":
+  - {scanCode: 8, modifiers: alt}
+  - 12
+  "Í":
+  - {scanCode: 8, modifiers: alt}
+  - {scanCode: 12, modifiers: shift}
+  "ó":
+  - {scanCode: 8, modifiers: alt}
+  - 18
+  "Ó":
+  - {scanCode: 8, modifiers: alt}
+  - {scanCode: 18, modifiers: shift}
+  "ú":
+  - {scanCode: 8, modifiers: alt}
+  - 24
+  "Ú":
+  - {scanCode: 8, modifiers: alt}
+  - {scanCode: 24, modifiers: shift}
+  "r": 0x15
+  "R":
+    modifiers: shift
+    scanCode: 0x15
+  "t": 0x17
+  "T":
+    modifiers: shift
+    scanCode: 0x17
+  "y": 0x1c
+  "Y":
+    modifiers: shift
+    scanCode: 0x1c
+  "u": 0x18
+  "U":
+    modifiers: shift
+    scanCode: 0x18
+  "ä":
+  - {scanCode: 24, modifiers: alt}
+  - 4
+  "Ä":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 4, modifiers: shift}
+  "ë":
+  - {scanCode: 24, modifiers: alt}
+  - 8
+  "Ë":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 8, modifiers: shift}
+  "ï":
+  - {scanCode: 24, modifiers: alt}
+  - 12
+  "Ï":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 12, modifiers: shift}
+  "ö":
+  - {scanCode: 24, modifiers: alt}
+  - 18
+  "Ö":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 18, modifiers: shift}
+  "ü":
+  - {scanCode: 24, modifiers: alt}
+  - 24
+  "Ü":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 24, modifiers: shift}
+  "ÿ":
+  - {scanCode: 24, modifiers: alt}
+  - 28
+  "Ÿ":
+  - {scanCode: 24, modifiers: alt}
+  - {scanCode: 28, modifiers: shift}
+  "i": 0x0c
+  "I":
+    modifiers: shift
+    scanCode: 0x0c
+  "â":
+  - {scanCode: 12, modifiers: alt}
+  - 4
+  "Â":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 4, modifiers: shift}
+  "ê":
+  - {scanCode: 12, modifiers: alt}
+  - 8
+  "Ê":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 8, modifiers: shift}
+  "î":
+  - {scanCode: 12, modifiers: alt}
+  - 12
+  "Î":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 12, modifiers: shift}
+  "ô":
+  - {scanCode: 12, modifiers: alt}
+  - 18
+  "Ô":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 18, modifiers: shift}
+  "û":
+  - {scanCode: 12, modifiers: alt}
+  - 24
+  "Û":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 24, modifiers: shift}
+  "ŷ":
+  - {scanCode: 12, modifiers: alt}
+  - 28
+  "Ŷ":
+  - {scanCode: 12, modifiers: alt}
+  - {scanCode: 28, modifiers: shift}
+  "o": 0x12
+  "O":
+    modifiers: shift
+    scanCode: 0x12
+  "p": 0x13
+  "P":
+    modifiers: shift
+    scanCode: 0x13
+  "[": 0x2f
+  "{":
+    modifiers: shift
+    scanCode: 0x2f
+  "]": 0x30
+  "}":
+    modifiers: shift
+    scanCode: 0x30
+  "\\": 0x31
+  "|":
+    modifiers: shift
+    scanCode: 0x31
+
+  # Middle letter row
+  "a": 0x04
+  "A":
+    modifiers: shift
+    scanCode: 0x04
+  "s": 0x16
+  "S":
+    modifiers: shift
+    scanCode: 0x16
+  "d": 0x07
+  "D":
+    modifiers: shift
+    scanCode: 0x07
+  "f": 0x09
+  "F":
+    modifiers: shift
+    scanCode: 0x09
+  "g": 0x0a
+  "G":
+    modifiers: shift
+    scanCode: 0x0a
+  "h": 0x0b
+  "H":
+    modifiers: shift
+    scanCode: 0x0b
+  "j": 0x0d
+  "J":
+    modifiers: shift
+    scanCode: 0x0d
+  "k": 0x0e
+  "K":
+    modifiers: shift
+    scanCode: 0x0e
+  "l": 0x0f
+  "L":
+    modifiers: shift
+    scanCode: 0x0f
+  ";": 0x33
+  ":":
+    modifiers: shift
+    scanCode: 0x33
+  "'": 0x34
+  "\"":
+    modifiers: shift
+    scanCode: 0x34
+  "\r": 0x28
+  "\n": 0x28
+
+  # Lower letter row
+  "z": 0x1d
+  "Z":
+    modifiers: shift
+    scanCode: 0x1d
+  "x": 0x1b
+  "X":
+    modifiers: shift
+    scanCode: 0x1b
+  "c": 0x06
+  "C":
+    modifiers: shift
+    scanCode: 0x06
+  "v": 0x19
+  "V":
+    modifiers: shift
+    scanCode: 0x19
+  "b": 0x05
+  "B":
+    modifiers: shift
+    scanCode: 0x05
+  "n": 0x11
+  "N":
+    modifiers: shift
+    scanCode: 0x11
+  "ã":
+  - {scanCode: 0x11, modifiers: alt}
+  - 4
+  "Ã":
+  - {scanCode: 0x11, modifiers: alt}
+  - {scanCode: 4, modifiers: shift}
+  "ñ":
+  - {scanCode: 0x11, modifiers: alt}
+  - 0x11
+  "Ñ":
+  - {scanCode: 0x11, modifiers: alt}
+  - {scanCode: 0x11, modifiers: shift}
+  "õ":
+  - {scanCode: 0x11, modifiers: alt}
+  - 18
+  "Õ":
+  - {scanCode: 0x11, modifiers: alt}
+  - {scanCode: 18, modifiers: shift}
+  "m": 0x10
+  "M":
+    modifiers: shift
+    scanCode: 0x10
+  ",": 0x36
+  "<":
+    modifiers: shift
+    scanCode: 0x36
+  ".": 0x37
+  ">":
+    modifiers: shift
+    scanCode: 0x37
+  "/": 0x38
+  "?":
+    modifiers: shift
+    scanCode: 0x38
+
+  # Space bar
+  " ": 0x2c
+
+  # Alt characters
+  "Ç":
+  - {scanCode: 6, modifiers: [shift, alt]}
+  "ß":
+  - {scanCode: 22, modifiers: alt}
+  "ç":
+  - {scanCode: 6, modifiers: alt}

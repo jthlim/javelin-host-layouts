@@ -15,7 +15,9 @@ Modifier names supported:
 - alt_gr
 - meta
 - super
+- win
 - windows
+- cmd
 - command
 - left_ctrl
 - left_control
@@ -23,7 +25,9 @@ Modifier names supported:
 - left_alt
 - left_meta
 - left_super
+- left_win
 - left_windows
+- left_cmd
 - left_command
 - right_ctrl
 - right_control
@@ -31,7 +35,9 @@ Modifier names supported:
 - right_alt
 - right_meta
 - right_super
+- right_win
 - right_windows
+- right_cmd
 - right_command
 
 Contributions to this repository are welcome.
