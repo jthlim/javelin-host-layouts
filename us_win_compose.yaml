@@ -1,5 +1,5 @@
 # Mapping for US keyboards with EnableHexNumpad turned on in the registry.
-name: US Windows WinCompose
+name: US WinCompose
 identifier: us_win_compose
 unicode: winCompose
 keyCodes:
