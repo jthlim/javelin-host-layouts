@@ -1,7 +1,35 @@
 # Mapping for US keyboards with Linux IBus unicode entry.
 name: US Linux IBus
 identifier: us_linux_ibus
-unicode: linuxIBus
+unicode:  |
+  func begin() {
+  }
+
+  func emit(unicode) {
+    emitKeyCode(0x318); // Control + Shift + U
+    releaseModifiers();
+    flush();
+    emitHex(unicode);
+    flush();
+    emitKeyCode(0x2c); // Space
+  }
+
+  func end() {
+  }
+
+  func emitHex(value) {
+    const HEX_SCAN_CODES = [[
+      27 // 0
+      1e 1f 20 21 22 23 24 25 26 // 1-9
+      04 05 06 07 08 09 // a-f
+    ]];
+    var quotient = value >> 4;
+    if (quotient) {
+      emitHex(quotient);
+    }
+    flush();
+    emitKeyCode(HEX_SCAN_CODES[value & 0xf]);
+  }
 keyCodes:
   # Number row
   "`": 0x35

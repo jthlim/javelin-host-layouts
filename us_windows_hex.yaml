@@ -1,7 +1,54 @@
 # Mapping for US keyboards with EnableHexNumpad turned on in the registry.
 name: US Windows Hex
 identifier: us_windows_hex
-unicode: windowsHex
+unicode: |
+  var hasReadNumlock;
+  var numlockState;
+
+  func wasNumlockPressed() var {
+    if (!hasReadNumlock) {
+      hasReadNumlock = 1;
+      const LED_STATUS_NUM_LOCK = 0;
+      numlockState = getLedStatus(LED_STATUS_NUM_LOCK);
+    }
+    return numlockState;
+  }
+
+  func begin() {
+    hasReadNumlock = 0;
+  }
+
+  func emit(unicode) {
+    if (unicode >= 0x10000) {
+      emitKeyCode(0x238); // Emit '?"
+      return;
+    }
+
+    if (!wasNumlockPressed()) {
+      tapKey(0x53);
+    }
+    emitKeyCode(0x457);
+    emitHex(unicode);
+    releaseModifiers();
+    if (!wasNumlockPressed()) {
+      tapKey(0x53);
+    }
+  }
+
+  func end() {
+  }
+
+  func emitHex(value) {
+    const HEX_SCAN_CODES = [[
+      62 // KP0
+      59 5a 5b 5c 5d 5e 5f 60 61 // KP1-9
+      04 05 06 07 08 09 // a-f
+    ]];
+    for (var i = 0; i < 4; i += 1) {
+      emitKeyCode(HEX_SCAN_CODES[(value >> 12) & 0xf] | 0x400);
+      value <<= 4;
+    }
+  }
 keyCodes:
   # Number row
   "`": 0x35

@@ -1,7 +1,31 @@
-# Mapping for US keyboards with EnableHexNumpad turned on in the registry.
+# Mapping for US keyboards with WinCompose app installed under Windows.
 name: US WinCompose
-identifier: us_win_compose
-unicode: winCompose
+identifier: us_wincompose
+unicode: |
+  func begin() {
+  }
+
+  func emit(unicode) {
+    emitKeyCode(0x4018); // Right Alt + U
+    emitHex(unicode);
+    emitKeyCode(0x2c); // Space
+  }
+
+  func end() {
+  }
+
+  func emitHex(value) {
+    const HEX_SCAN_CODES = [[
+      27 // 0
+      1e 1f 20 21 22 23 24 25 26 // 1-9
+      04 05 06 07 08 09 // a-f
+    ]];
+    var quotient = value >> 4;
+    if (quotient) {
+      emitHex(quotient);
+    }
+    emitKeyCode(HEX_SCAN_CODES[value & 0xf]);
+  }
 keyCodes:
   # Number row
   "`": 0x35

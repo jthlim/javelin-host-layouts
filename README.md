@@ -40,4 +40,17 @@ Modifier names supported:
 - right_cmd
 - right_command
 
+Unicode supports a script, or one of the following keywords (case sensitive):
+- none
+- linuxIBus
+- macosUnicodeHex
+- winCompose
+- windowsHex
+
+The script has 4 functions:
+- init (optional) -- called when the host layout is selected
+- begin -- called when the emitter has keys to emit
+- emit(unicode) -- called when a unicode point needs to be emitted
+- end -- called when the emitter has completed emitting keys.
+
 Contributions to this repository are welcome.
