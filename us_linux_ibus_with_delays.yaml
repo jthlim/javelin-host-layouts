@@ -1,4 +1,6 @@
 # Mapping for US keyboards with Linux IBus unicode entry.
+# This file includes extra delays to make unicode input work with slower
+# systems, but requires firmware 2025-07-19 or later.
 name: US Linux IBus
 identifier: us_linux_ibus
 unicode:  |
@@ -6,17 +8,22 @@ unicode:  |
   }
 
   func emit(unicode) {
-    flush();
+    flushAndSleep();
     emitKeyCode(0x318); // Control + Shift + U
+    flushAndSleep();
     releaseModifiers();
-    flush();
+    flushAndSleep();
     emitHex(unicode);
-    flush();
     emitKeyCode(0x2c); // Space
-    flush();
+    flushAndSleep();
   }
 
   func end() {
+  }
+
+  func flushAndSleep() {
+    flush();
+    sleep(40);
   }
 
   func emitHex(value) {
