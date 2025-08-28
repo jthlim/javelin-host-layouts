@@ -6,17 +6,22 @@ unicode:  |
   }
 
   func emit(unicode) {
-    flush();
+    flushAndSleep();
     emitKeyCode(0x318); // Control + Shift + U
+    flushAndSleep();
     releaseModifiers();
-    flush();
+    flushAndSleep();
     emitHex(unicode);
-    flush();
     emitKeyCode(0x2c); // Space
-    flush();
+    flushAndSleep();
   }
 
   func end() {
+  }
+
+  func flushAndSleep() {
+    flush();
+    sleep(40);
   }
 
   func emitHex(value) {

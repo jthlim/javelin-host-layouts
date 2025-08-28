@@ -6,15 +6,22 @@ unicode:  |
   }
 
   func emit(unicode) {
+    flushAndSleep();
     emitKeyCode(0x30c); // Control + Shift + U
+    flushAndSleep();
     releaseModifiers();
-    flush();
+    flushAndSleep();
     emitHex(unicode);
-    flush();
     emitKeyCode(0x2c); // Space
+    flushAndSleep();
   }
 
   func end() {
+  }
+
+  func flushAndSleep() {
+    flush();
+    sleep(40);
   }
 
   func emitHex(value) {
@@ -27,7 +34,6 @@ unicode:  |
     if (quotient) {
       emitHex(quotient);
     }
-    flush();
     emitKeyCode(HEX_SCAN_CODES[value & 0xf]);
   }
 keyCodes:
