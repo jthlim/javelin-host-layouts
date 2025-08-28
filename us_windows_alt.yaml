@@ -227,14 +227,38 @@ keyCodes:
   - {scanCode: 93, modifiers: alt}
   - {scanCode: 94, modifiers: alt}
   - {scanCode: 0}
+  "¤":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 94, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 0}
   "¥":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 93, modifiers: alt}
   - {scanCode: 95, modifiers: alt}
   - {scanCode: 0}
+  "¦":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 94, modifiers: alt}
+  - {scanCode: 94, modifiers: alt}
+  - {scanCode: 0}
   "§":
   - {scanCode: 90, modifiers: alt}
   - {scanCode: 89, modifiers: alt}
+  - {scanCode: 0}
+  "¨":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 94, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
+  - {scanCode: 0}
+  "©":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 94, modifiers: alt}
+  - {scanCode: 97, modifiers: alt}
   - {scanCode: 0}
   "ª":
   - {scanCode: 89, modifiers: alt}
@@ -251,6 +275,24 @@ keyCodes:
   - {scanCode: 95, modifiers: alt}
   - {scanCode: 98, modifiers: alt}
   - {scanCode: 0}
+  "­":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 95, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 0}
+  "®":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 95, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 0}
+  "¯":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 95, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 0}
   "°":
   - {scanCode: 90, modifiers: alt}
   - {scanCode: 92, modifiers: alt}
@@ -266,6 +308,18 @@ keyCodes:
   - {scanCode: 93, modifiers: alt}
   - {scanCode: 91, modifiers: alt}
   - {scanCode: 0}
+  "³":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 95, modifiers: alt}
+  - {scanCode: 97, modifiers: alt}
+  - {scanCode: 0}
+  "´":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 0}
   "µ":
   - {scanCode: 90, modifiers: alt}
   - {scanCode: 91, modifiers: alt}
@@ -279,6 +333,18 @@ keyCodes:
   - {scanCode: 90, modifiers: alt}
   - {scanCode: 93, modifiers: alt}
   - {scanCode: 98, modifiers: alt}
+  - {scanCode: 0}
+  "¸":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 0}
+  "¹":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
   - {scanCode: 0}
   "º":
   - {scanCode: 89, modifiers: alt}
@@ -300,15 +366,39 @@ keyCodes:
   - {scanCode: 95, modifiers: alt}
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 0}
+  "¾":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 97, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 0}
   "¿":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 94, modifiers: alt}
   - {scanCode: 96, modifiers: alt}
   - {scanCode: 0}
+  "À":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 97, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 0}
   "Á":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 96, modifiers: alt}
   - {scanCode: 89, modifiers: alt}
+  - {scanCode: 0}
+  "Â":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 97, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 0}
+  "Ã":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 97, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
   - {scanCode: 0}
   "Ä":
   - {scanCode: 89, modifiers: alt}
@@ -330,25 +420,139 @@ keyCodes:
   - {scanCode: 90, modifiers: alt}
   - {scanCode: 96, modifiers: alt}
   - {scanCode: 0}
+  "È":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 0}
   "É":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 92, modifiers: alt}
   - {scanCode: 92, modifiers: alt}
+  - {scanCode: 0}
+  "Ê":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 0}
+  "Ë":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 0}
+  "Ì":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 0}
+  "Í":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 0}
+  "Î":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 94, modifiers: alt}
+  - {scanCode: 0}
+  "Ï":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 95, modifiers: alt}
+  - {scanCode: 0}
+  "Ð":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
   - {scanCode: 0}
   "Ñ":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 94, modifiers: alt}
   - {scanCode: 93, modifiers: alt}
   - {scanCode: 0}
+  "Ò":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 0}
+  "Ó":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 0}
+  "Ô":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 0}
+  "Õ":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 0}
   "Ö":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 93, modifiers: alt}
   - {scanCode: 91, modifiers: alt}
   - {scanCode: 0}
+  "×":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 0}
+  "Ø":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 94, modifiers: alt}
+  - {scanCode: 0}
+  "Ù":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 95, modifiers: alt}
+  - {scanCode: 0}
+  "Ú":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
+  - {scanCode: 0}
+  "Û":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 97, modifiers: alt}
+  - {scanCode: 0}
   "Ü":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 93, modifiers: alt}
   - {scanCode: 92, modifiers: alt}
+  - {scanCode: 0}
+  "Ý":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 0}
+  "Þ":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
   - {scanCode: 0}
   "ß":
   - {scanCode: 90, modifiers: alt}
@@ -369,6 +573,12 @@ keyCodes:
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 91, modifiers: alt}
   - {scanCode: 89, modifiers: alt}
+  - {scanCode: 0}
+  "ã":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 95, modifiers: alt}
   - {scanCode: 0}
   "ä":
   - {scanCode: 89, modifiers: alt}
@@ -430,6 +640,12 @@ keyCodes:
   - {scanCode: 91, modifiers: alt}
   - {scanCode: 97, modifiers: alt}
   - {scanCode: 0}
+  "ð":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 0}
   "ñ":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 94, modifiers: alt}
@@ -450,6 +666,12 @@ keyCodes:
   - {scanCode: 92, modifiers: alt}
   - {scanCode: 95, modifiers: alt}
   - {scanCode: 0}
+  "õ":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 0}
   "ö":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 92, modifiers: alt}
@@ -459,6 +681,12 @@ keyCodes:
   - {scanCode: 90, modifiers: alt}
   - {scanCode: 92, modifiers: alt}
   - {scanCode: 94, modifiers: alt}
+  - {scanCode: 0}
+  "ø":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
   - {scanCode: 0}
   "ù":
   - {scanCode: 89, modifiers: alt}
@@ -480,15 +708,81 @@ keyCodes:
   - {scanCode: 90, modifiers: alt}
   - {scanCode: 97, modifiers: alt}
   - {scanCode: 0}
+  "ý":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 0}
+  "þ":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 0}
   "ÿ":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 93, modifiers: alt}
   - {scanCode: 90, modifiers: alt}
   - {scanCode: 0}
+  "Œ":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 0}
+  "œ":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 94, modifiers: alt}
+  - {scanCode: 0}
+  "Š":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
+  - {scanCode: 0}
+  "š":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 0}
+  "Ÿ":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 97, modifiers: alt}
+  - {scanCode: 0}
+  "Ž":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 0}
+  "ž":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
+  - {scanCode: 0}
   "ƒ":
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 93, modifiers: alt}
   - {scanCode: 97, modifiers: alt}
+  - {scanCode: 0}
+  "ˆ":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 94, modifiers: alt}
+  - {scanCode: 0}
+  "˜":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
   - {scanCode: 0}
   "Γ":
   - {scanCode: 90, modifiers: alt}
@@ -550,8 +844,92 @@ keyCodes:
   - {scanCode: 91, modifiers: alt}
   - {scanCode: 95, modifiers: alt}
   - {scanCode: 0}
+  "–":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 0}
+  "—":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 0}
+  "‘":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 0}
+  "’":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 94, modifiers: alt}
+  - {scanCode: 0}
+  "‚":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 0}
+  "“":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 95, modifiers: alt}
+  - {scanCode: 0}
+  "”":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
+  - {scanCode: 0}
+  "„":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 0}
+  "†":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 92, modifiers: alt}
+  - {scanCode: 0}
+  "‡":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 0}
   "•":
   - {scanCode: 95, modifiers: alt}
+  - {scanCode: 0}
+  "…":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 0}
+  "‰":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 95, modifiers: alt}
+  - {scanCode: 0}
+  "‹":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
+  - {scanCode: 97, modifiers: alt}
+  - {scanCode: 0}
+  "›":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
   - {scanCode: 0}
   "‼":
   - {scanCode: 89, modifiers: alt}
@@ -566,6 +944,18 @@ keyCodes:
   - {scanCode: 89, modifiers: alt}
   - {scanCode: 93, modifiers: alt}
   - {scanCode: 96, modifiers: alt}
+  - {scanCode: 0}
+  "€":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 90, modifiers: alt}
+  - {scanCode: 96, modifiers: alt}
+  - {scanCode: 0}
+  "™":
+  - {scanCode: 98, modifiers: alt}
+  - {scanCode: 89, modifiers: alt}
+  - {scanCode: 93, modifiers: alt}
+  - {scanCode: 91, modifiers: alt}
   - {scanCode: 0}
   "←":
   - {scanCode: 90, modifiers: alt}
