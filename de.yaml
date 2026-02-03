@@ -184,7 +184,9 @@ keyCodes:
   "Ä":
     modifiers: shift
     scanCode: 0x33
-  "\r": 0x28
+  "\r":
+    modifiers: shift
+    scanCode: 0x28
   "\n": 0x28
 
   # Lower letter row
