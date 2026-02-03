@@ -184,6 +184,10 @@ keyCodes:
   "Ä":
     modifiers: shift
     scanCode: 0x33
+  "#": 0x31
+  "'":
+    modifiers: shift
+    scanCode: 0x31
   "\r":
     modifiers: shift
     scanCode: 0x28
