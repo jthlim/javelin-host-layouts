@@ -7,12 +7,12 @@ unicode:  |
 
   func emit(unicode) {
     flushAndSleep();
-    emitKeyCode(0x30c); // Control + Shift + U
+    emitKeyCode(MODIFIER_L_CTRL | MODIFIER_L_SHIFT | SC_U);
     flushAndSleep();
     releaseModifiers();
     flushAndSleep();
     emitHex(unicode);
-    emitKeyCode(0x2c); // Space
+    emitKeyCode(SC_SPACE);
     flushAndSleep();
   }
 

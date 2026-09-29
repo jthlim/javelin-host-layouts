@@ -8,7 +8,6 @@ unicode: |
   func wasNumlockPressed() var {
     if (!hasReadNumlock) {
       hasReadNumlock = 1;
-      const LED_STATUS_NUM_LOCK = 0;
       numlockState = getLedStatus(LED_STATUS_NUM_LOCK);
     }
     return numlockState;
@@ -20,18 +19,24 @@ unicode: |
 
   func emit(unicode) {
     if (unicode >= 0x10000) {
-      emitKeyCode(0x238); // Emit '?"
+      unicode -= 0x10000;
+      emit(0xd800 | ((unicode >> 10) & 0x3ff));
+      emit(0xdc00 | (unicode & 0x3ff));
       return;
     }
 
     if (!wasNumlockPressed()) {
-      tapKey(0x53);
+      tapKey(SC_NUM_LOCK);
     }
-    emitKeyCode(0x457);
+    flush();
+    emitKeyCode(MODIFIER_L_ALT);
+    emitKeyCode(SC_KP_PLUS | MODIFIER_L_ALT);
+    flush();
     emitHex(unicode);
     releaseModifiers();
+    flush();
     if (!wasNumlockPressed()) {
-      tapKey(0x53);
+      tapKey(SC_NUM_LOCK);
     }
   }
 
@@ -45,7 +50,7 @@ unicode: |
       04 05 06 07 08 09 // a-f
     ]];
     for (var i = 0; i < 4; i += 1) {
-      emitKeyCode(HEX_SCAN_CODES[(value >> 12) & 0xf] | 0x400);
+      emitKeyCode(HEX_SCAN_CODES[(value >> 12) & 0xf] | MODIFIER_L_ALT);
       value <<= 4;
     }
   }

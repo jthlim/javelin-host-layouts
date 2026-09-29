@@ -6,9 +6,13 @@ unicode: |
   }
 
   func emit(unicode) {
-    emitKeyCode(0x4018); // Right Alt + U
+    flush();
+    emitKeyCode(MODIFIER_R_ALT | SC_U);
+    flush();
     emitHex(unicode);
-    emitKeyCode(0x2c); // Space
+    emitKeyCode(SC_SPACE); // Space
+    flush();
+    flush();
   }
 
   func end() {
@@ -20,11 +24,11 @@ unicode: |
       1e 1f 20 21 22 23 24 25 26 // 1-9
       04 05 06 07 08 09 // a-f
     ]];
-    var quotient = value >> 4;
-    if (quotient) {
-      emitHex(quotient);
+    if (value > 9) {
+      emitHex(value >> 4);
     }
     emitKeyCode(HEX_SCAN_CODES[value & 0xf]);
+    flush();
   }
 keyCodes:
   # Number row

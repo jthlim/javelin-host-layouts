@@ -351,6 +351,9 @@ keyCodes:
 
   # Space bar
   " ": 0x2c
+  " ":
+    modifiers: alt
+    scanCode: 0x2c
 
   # Alt characters
   "¡":

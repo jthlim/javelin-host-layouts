@@ -7,11 +7,11 @@ unicode:  |
 
   func emit(unicode) {
     flushAndSleep();
-    emitKeyCode(0x119); // Control + V
+    emitKeyCode(MODIFIER_L_CTRL | SC_V);
     flushAndSleep();
     releaseModifiers();
     flushAndSleep();
-    emitKeyCode(0x218); // Shift + U
+    emitKeyCode(MODIFIER_L_SHIFT | SC_U);
     releaseModifiers();
     emitHex(unicode);
     flushAndSleep();
