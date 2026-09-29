@@ -8,16 +8,16 @@ unicode:  |
   func emit(unicode) {
     flushAndSleep();
 
-    emitKeyCode(0x11b); // Control + X
+    emitKeyCode(MODIFIER_L_CTRL | SC_X);
     flushAndSleep();
     releaseModifiers();
     flushAndSleep();
-    emitKeyCode(0x25); // 8
-    emitKeyCode(0x28); // Enter
+    emitKeyCode(SC_8);
+    emitKeyCode(SC_ENTER);
     flushAndSleep();
 
     emitHex(unicode);
-    emitKeyCode(0x28); // Enter
+    emitKeyCode(SC_ENTER);
     flushAndSleep();
   }
 

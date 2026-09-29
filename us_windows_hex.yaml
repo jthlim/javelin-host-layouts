@@ -2,19 +2,19 @@
 name: US Windows Hex
 identifier: us_windows_hex
 unicode: |
-  var hasReadNumlock;
-  var numlockState;
+  var hasReadNumLock;
+  var numLockState;
 
-  func wasNumlockPressed() var {
-    if (!hasReadNumlock) {
-      hasReadNumlock = 1;
-      numlockState = getLedStatus(LED_STATUS_NUM_LOCK);
+  func wasNumLockPressed() var {
+    if (!hasReadNumLock) {
+      hasReadNumLock = 1;
+      numLockState = getLedStatus(LED_STATUS_NUM_LOCK);
     }
-    return numlockState;
+    return numLockState;
   }
 
   func begin() {
-    hasReadNumlock = 0;
+    hasReadNumLock = 0;
   }
 
   func emit(unicode) {
@@ -25,17 +25,16 @@ unicode: |
       return;
     }
 
-    if (!wasNumlockPressed()) {
+    if (!wasNumLockPressed()) {
       tapKey(SC_NUM_LOCK);
     }
     flush();
-    emitKeyCode(MODIFIER_L_ALT);
     emitKeyCode(SC_KP_PLUS | MODIFIER_L_ALT);
     flush();
     emitHex(unicode);
     releaseModifiers();
     flush();
-    if (!wasNumlockPressed()) {
+    if (!wasNumLockPressed()) {
       tapKey(SC_NUM_LOCK);
     }
   }
